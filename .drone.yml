@@ -10,3 +10,4 @@ steps:
 trigger:
   event:
     - promote
+    - push
