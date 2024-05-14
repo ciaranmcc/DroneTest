@@ -3,10 +3,10 @@ type: kubernetes
 name: default
 
 steps:
-  - name: show-promote-value-now
+  - name: show-promote-value
     image: alpine
     commands:
-      - echo "Promotion Value: ${DRONE_PROMOTE_VALUE}"
+      - echo "This is a test"
 trigger:
   event:
     - promote
