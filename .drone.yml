@@ -1,0 +1,12 @@
+kind: pipeline
+type: kubernetes
+name: default
+
+steps:
+  - name: show-promote-value-now
+    image: alpine
+    commands:
+      - echo "Promotion Value: ${DRONE_PROMOTE_VALUE}"
+trigger:
+  event:
+    - promote
