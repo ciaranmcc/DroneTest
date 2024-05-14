@@ -7,6 +7,7 @@ steps:
     image: alpine
     commands:
       - echo "This is a test"
+      - exit 1
 trigger:
   event:
     - promote
