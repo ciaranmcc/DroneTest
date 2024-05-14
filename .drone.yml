@@ -3,7 +3,7 @@ type: kubernetes
 name: default
 
 steps:
-  - name: show-promote-value
+  - name: show-promote-value-test
     image: alpine
     commands:
       - echo "This is a test"
