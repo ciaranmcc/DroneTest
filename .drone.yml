@@ -6,7 +6,7 @@ steps:
   - name: show-promote-value-test
     image: alpine
     commands:
-      - echo "This is a test"
+      - echo "This is a test again"
       - exit 1
 trigger:
   event:
